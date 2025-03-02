@@ -1,0 +1,27 @@
+# Created by https://www.toptal.com/developers/gitignore/api/elisp,netbeans
+# Edit at https://www.toptal.com/developers/gitignore?templates=elisp,netbeans
+
+### Elisp ###
+# Compiled
+*.elc
+
+# Packaging
+.cask
+
+# Backup files
+*~
+
+# Undo-tree save-files
+*.~undo-tree
+
+### NetBeans ###
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# End of https://www.toptal.com/developers/gitignore/api/elisp,netbeans
